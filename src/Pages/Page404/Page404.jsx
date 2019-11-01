@@ -13,7 +13,7 @@ export default class Page404 extends Component {
     return (
       <div className={style.red}>
         <Link to="/">返回</Link>
-        <button onClick={this.click}>404</button>
+        <button onClick={this.click}>4041</button>
         <div>{this.state.count}</div>
       </div>
     );
