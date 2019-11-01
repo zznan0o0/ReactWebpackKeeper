@@ -11,10 +11,10 @@ class Bundle extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    // if (nextProps.load !== this.props.load) {
-    //   this.load(nextProps)
-    // }
-    this.load(nextProps)
+    if (nextProps.load !== this.props.load) {
+      this.load(nextProps)
+    }
+    // this.load(nextProps)
   }
 
   load(props) {
